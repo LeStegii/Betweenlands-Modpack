@@ -1,0 +1,17 @@
+{
+    "name": "Gliders",
+    "icon": "paraglider:paraglider",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Paraglider mod adds two new Paragliders which can be used as an alternative to the Volarkite.$(br2)They let you move slower and can be controlled more easily."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:paraglider_paraglider_modified",
+			"text": "Combine an existing paraglider with leaves to turn it into a leaf. You can change it back to default using a stick."
+        }
+    ]
+}
+

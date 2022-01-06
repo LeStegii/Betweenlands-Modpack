@@ -1,0 +1,35 @@
+// ===================================================================
+// This is a template for a Pillar structure
+// Do not include these lines in your file
+// The _template.json file is ignored so don't worry about it
+// ===================================================================
+
+{
+	"generatorType": "SURFACE",
+	"minY": -1,
+	"maxY": -1,
+	"offsetX": 0,
+	"offsetY": 1,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [20],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": false,
+	"generateEverywhere": true,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "thebetweenlands:betweenstone_bricks",
+	"fillingMetadata": 0,
+	"fillingType": "AIR_WATER",
+	
+	"rarity": 150
+}

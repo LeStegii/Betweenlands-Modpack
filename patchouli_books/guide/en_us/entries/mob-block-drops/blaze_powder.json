@@ -1,0 +1,16 @@
+{
+    "name": "Blaze Powder",
+    "icon": "minecraft:blaze_powder",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "entity",
+			"entity": "thebetweenlands:firefly",
+			"scale": 2.0,
+			"offset": 0.2,
+			"rotate": true,
+			"default_rotation": -45,
+			"text": "Fireflies will drop between 0 and 1 blaze powder."
+		}
+    ]
+}

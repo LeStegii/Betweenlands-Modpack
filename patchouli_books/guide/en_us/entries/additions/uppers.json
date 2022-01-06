@@ -1,0 +1,16 @@
+{
+    "name": "Uppers",
+    "icon": "uppers:upper",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uppers are upside-down hoppers. Items dropped below the Upper will be picked up automatically and transported upwards.$(br2)Uppers are very usefull in combination with Hopper Ducts."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:uppers_upper_alt_modified",
+            "recipe2": "crafttweaker:uppers_upper_modified"
+        }
+    ]
+}

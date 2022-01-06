@@ -1,0 +1,17 @@
+{
+    "name": "Displays",
+    "icon": "display:display",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can craft different displays to show your items to other players. The position can be modified using a Display Configurator."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:display_display_recipe_modified",
+            "recipe2": "crafttweaker:display_display_configurator_recipe_modified"
+        }
+    ]
+}
+

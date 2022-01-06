@@ -1,0 +1,42 @@
+{
+    "name": "Structures",
+    "icon": "thebetweenlands:loot_pot:8",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This modpack contains some custom structures in order to make some mobs available in the betweenlands.$(br2)All normal Vampirism structures will spawn as usual."
+        },
+        {
+			"type": "entity",
+			"entity": "minecraft:villager",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Villager",
+			"text": "You may find a caged villager somewhere..."
+		},
+        {
+			"type": "entity",
+			"title": "Vampire Baron",
+			"entity": "vampirism:hunter_trainer",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Trainer",
+			"text": "Hunter Trainers will spawn in your world."
+		},
+        {
+			"type": "entity",
+			"title": "Vampire Baron",
+			"entity": "vampirism:vampire_baron",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"text": "Vampire Barons can be found in underground dungeons."
+		}
+    ]
+}

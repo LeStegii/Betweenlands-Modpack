@@ -1,0 +1,36 @@
+{
+    "name": "Storage Blocks",
+    "icon": "bsb:lurker_skin_block",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can craft different storage blocks in this pack which help you save inventory space. They can also be used for decoration."
+        },
+		{
+            "type": "crafting",
+            "recipe": "bsb:sap_ball_block",
+            "recipe2": "bsb:sap_spit_block"
+        },
+		{
+            "type": "crafting",
+            "recipe": "bsb:lurker_skin_block",
+            "recipe2": "bsb:swamp_reed_block"
+        },
+		{
+            "type": "crafting",
+            "recipe": "bsb:shimmerstone_block",
+            "recipe2": "bsb:amate_paper_block"
+        },
+		{
+            "type": "crafting",
+            "recipe": "bsb:tangled_root_block",
+            "recipe2": "bsb:dry_bark_block"
+        },
+		{
+            "type": "crafting",
+            "recipe": "bsb:angler_tooth_block",
+            "recipe2": "bsb:tar_drip_block"
+        }
+    ]
+}

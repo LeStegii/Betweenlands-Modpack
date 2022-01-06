@@ -1,0 +1,17 @@
+{
+    "name": "Statues",
+    "icon": "statues:hammer",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Place down 2 blocks of the same type on top of each other and right-click them with a Hammer to create a player statue.$(br2)The statue can be used as an armor stand and can be colored by right-clicking it with a Palette."
+        },
+        {
+            "type": "crafting",
+            "recipe": "statues_hammer_modified",
+            "recipe2": "statues:palette"
+        }
+    ]
+}
+

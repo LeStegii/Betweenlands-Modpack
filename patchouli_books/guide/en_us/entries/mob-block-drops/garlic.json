@@ -1,0 +1,16 @@
+{
+    "name": "Garlic",
+    "icon": "vampirism:item_garlic",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "entity",
+			"entity": "thebetweenlands:toad",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"text": "Toads will drop between 0 and 3 cloudsbuff."
+		}
+    ]
+}

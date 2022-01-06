@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:tall_cattail",
+            "thebetweenlands:cattail"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+	  "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 30
+            }
+          },
+          "item": {
+            "items": [
+              "rustic:cohosh"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 70
+            }
+          }	
+        }
+      ]
+    }
+  ]
+}

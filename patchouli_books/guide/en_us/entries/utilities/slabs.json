@@ -1,0 +1,11 @@
+{
+    "name": "Slabs",
+    "icon": "thebetweenlands:rotten_plank_slab",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you place two slabs on top of each other, you will only break the one you're facing if you mine it."
+        }
+    ]
+}

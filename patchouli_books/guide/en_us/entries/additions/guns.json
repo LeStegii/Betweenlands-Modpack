@@ -1,0 +1,36 @@
+{
+    "name": "Guns",
+    "icon": "archaicguns:blunderbuss",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Next to the hunter exclusive crossbow this pack offers a small variety of weapons you can craft and fill with cartridges to fire.$(br2)The weapons are quite expensive and not very strong compared to crossbows."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_pistol",
+            "recipe2": "crafttweaker:ct_pipegun"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_musket",
+            "recipe2": "crafttweaker:ct_rifle"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_blunderbuss",
+            "recipe2": "crafttweaker:ct_coachgun"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_rotatingboltlauncher",
+            "recipe2": "crafttweaker:ct_slagger"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_cartridge"
+        }
+    ]
+}
+

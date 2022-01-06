@@ -1,0 +1,12 @@
+{
+    "name": "Aloe Vera",
+    "icon": "rustic:aloe_vera",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "thebetweenlands:venus_fly_trap",
+			"text": "Aloe Vera can be dropped from Venus Fly Traps."
+		}
+    ]
+}

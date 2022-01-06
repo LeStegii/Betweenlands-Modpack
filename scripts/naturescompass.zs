@@ -1,0 +1,1 @@
+recipes.replaceAllOccurences(<minecraft:compass>, <ore:gemValonite>, <naturescompass:naturescompass>);

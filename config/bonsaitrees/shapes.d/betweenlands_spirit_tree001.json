@@ -1,0 +1,128 @@
+{
+  "type": "betweenlands:spirit_tree",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "thebetweenlands:leaves_spirit_tree_bottom",
+      "meta": 0
+    },
+    "b": {
+      "name": "thebetweenlands:log_spirit_tree",
+      "meta": 12
+    },
+    "c": {
+      "name": "thebetweenlands:leaves_spirit_tree_top",
+      "meta": 0
+    },
+    "d": {
+      "name": "thebetweenlands:leaves_spirit_tree_middle",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "        ",
+      "        ",
+      "        ",
+      "        ",
+      "   c    ",
+      "   d    ",
+      "   d    ",
+      "   d    ",
+      "   a    ",
+      "        ",
+      "        "
+    ],
+    [
+      "        ",
+      " cc     ",
+      " dd c   ",
+      " aacd   ",
+      "  cba   ",
+      "  d     ",
+      "  d     ",
+      "  a     ",
+      "        ",
+      "        ",
+      "        "
+    ],
+    [
+      " cc     ",
+      "cbbcc   ",
+      "d ccbc  ",
+      "a dd d  ",
+      " ccbca  ",
+      " dd d   ",
+      " aa a   ",
+      "        ",
+      "        ",
+      "        ",
+      "        "
+    ],
+    [
+      "        ",
+      " cc     ",
+      " cbccc  ",
+      " ccbbbc ",
+      "cbcc  d ",
+      "d db  a ",
+      "d a     ",
+      "a       ",
+      "        ",
+      "   b    ",
+      "   bbb  "
+    ],
+    [
+      "        ",
+      "        ",
+      "  c  c  ",
+      " cbbbbc ",
+      " cbb  d ",
+      " d b  d ",
+      " a b  a ",
+      "   b    ",
+      "   b    ",
+      "  bb    ",
+      " bbb    "
+    ],
+    [
+      "        ",
+      "     c  ",
+      "    cbc ",
+      "  c bcd ",
+      "  c  da ",
+      "  d  a  ",
+      "  a     ",
+      "        ",
+      "        ",
+      "   b    ",
+      "   b    "
+    ],
+    [
+      "        ",
+      "      c ",
+      "     cbc",
+      "     d d",
+      "     a a",
+      "        ",
+      "        ",
+      "        ",
+      "        ",
+      "        ",
+      "        "
+    ],
+    [
+      "        ",
+      "        ",
+      "      c ",
+      "      d ",
+      "      a ",
+      "        ",
+      "        ",
+      "        ",
+      "        ",
+      "        ",
+      "        "
+    ]
+  ]
+}

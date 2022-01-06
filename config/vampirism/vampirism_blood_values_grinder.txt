@@ -1,0 +1,5 @@
+thebetweenlands:snail_flesh_raw=3
+thebetweenlands:anadia_meat_raw=3
+thebetweenlands:frog_legs_raw=3
+thebetweenlands:barnacle=3
+thebetweenlands:crab_stick=3

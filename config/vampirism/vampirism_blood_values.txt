@@ -1,0 +1,3 @@
+thebetweenlands:toad=5
+thebetweenlands:gecko=3
+thebetweenlands:blood_snail=3

@@ -1,0 +1,38 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:leaves_sap_tree"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+	  "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:bananas"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 98
+            }
+          }	
+        }
+      ]
+    }
+  ]
+}

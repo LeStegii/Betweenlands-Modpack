@@ -1,0 +1,12 @@
+{
+    "name": "Seeds",
+    "icon": "rustic:apple_seeds",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "thebetweenlands:swamp_tallgrass",
+			"text": "Different seeds from Rustic can be dropped from different types of Grass."
+		}
+    ]
+}

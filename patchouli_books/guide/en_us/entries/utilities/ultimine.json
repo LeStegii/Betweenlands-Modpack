@@ -1,0 +1,11 @@
+{
+    "name": "Ultimine",
+    "icon": "thebetweenlands:valonite_pickaxe",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It's possible to break multiple connected blocks of the same type using the FTB Ultimine key (GRAVE by default).$(br2)This can be used to mine ores, tress or large areas.$(br2)By holding shift and scrolling you can change the mining shape (Shapeless, Mining Tunnnel, ...)."
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:swamp_tallgrass",
+            "thebetweenlands:swamp_double_tallgrass",
+            "thebetweenlands:cave_grass",
+            "thebetweenlands:pale_grass"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+	  "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          },
+          "item": {
+            "items": [
+              "rustic:chili_pepper_seeds",
+              "rustic:grape_stem",
+              "rustic:tomato_seeds",
+              "rustic:apple_seeds"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          }	
+        }
+      ]
+    }
+  ]
+}

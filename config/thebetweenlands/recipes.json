@@ -1,0 +1,16 @@
+{
+	"pestle_and_mortar": [
+		{
+			"input": {
+				"id": "rustic:marsh_mallow",
+				"meta": 0,
+				"size": 1
+			},
+			"output": {
+				"id": "minecraft:sugar",
+				"meta": 0,
+				"size": 3
+			}
+		}
+	]	
+}

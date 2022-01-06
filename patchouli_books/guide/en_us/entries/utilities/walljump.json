@@ -1,0 +1,11 @@
+{
+    "name": "Wall-Jump",
+    "icon": "thebetweenlands:syrmorite_boots",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you jump against a wall and sneak, you can hold onto it. If you stop sneaking, you will jump one more time.$(br2)This can be used to climb three blocks high walls or jump up between two walls.$(br2)You can also hold down the wall-jump button to slowly slide down walls."
+        }
+    ]
+}

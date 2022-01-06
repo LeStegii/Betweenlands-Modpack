@@ -1,0 +1,16 @@
+{
+    "name": "Hopper Ducts",
+    "icon": "hopperducts:hopperduct",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hopper ducts let you transport items more easily by connecting ducts between hoppers and other containers, such as chests.$(br2)There is also a Grated Hopper which lets you filter specific items."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:hopperducts_hopperduct_modified",
+            "recipe2": "crafttweaker:hopperducts_gratedhopper_modified"
+        }
+    ]
+}

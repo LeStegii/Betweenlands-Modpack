@@ -1,0 +1,12 @@
+{
+    "name": "Roots",
+    "icon": "rustic:core_root",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "thebetweenlands:weedwood_bush",
+			"text": "Core Roots and Ginseng Roots can be dropped from Weedwood Bushes."
+		}
+    ]
+}

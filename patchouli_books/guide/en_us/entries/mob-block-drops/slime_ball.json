@@ -1,0 +1,16 @@
+{
+    "name": "Slime Ball",
+    "icon": "minecraft:slime_ball",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "entity",
+			"entity": "thebetweenlands:mire_snail",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"text": "Mire Snails will drop between 0 and 1 slime balls."
+		}
+    ]
+}

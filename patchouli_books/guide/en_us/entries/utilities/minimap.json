@@ -1,0 +1,11 @@
+{
+    "name": "Minimap and Worldmap",
+    "icon": "thebetweenlands:empty_amate_map",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This pack has a small minimap that shows your sourroundings. It does not include mobs, caves or other players.$(br2)Press Z (by default) to enlarge the map, H (by default) to toggle it and M (by default) to open the world map.$(br2)Waypoints can be managed by pressing U (by default)."
+        }
+    ]
+}

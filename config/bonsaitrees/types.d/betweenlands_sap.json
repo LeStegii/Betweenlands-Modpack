@@ -1,0 +1,36 @@
+{
+    "name": "betweenlands:sap",
+    "mod": "thebetweenlands",
+    "sapling": {
+        "name": "thebetweenlands:sapling_sap",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.5,
+    "drops": [
+        {
+            "name": "thebetweenlands:items_misc:20",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "thebetweenlands:log_sap",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "thebetweenlands:sapling_sap",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "thebetweenlands:leaves_sap_tree",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "thebetweenlands:sap_ball",
+            "data": 0,
+            "type": "FRUIT"
+        }
+    ]
+}

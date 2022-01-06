@@ -1,0 +1,37 @@
+{
+    "name": "Blockcraftery",
+    "icon": "blockcraftery:editable_block",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Certain blocks don't have variations such as stairs or slabs.$(br2)Framed Blocks can be disguised by right-click with any other block to mimic its texture.$(br2)There are full blocks, stairs, slabs, and even slopes!$(br2)The Pressure Plates have different activation conditions."
+        },
+        {
+            "type": "crafting",
+            "recipe": "blockcraftery:editable_block",
+            "recipe2": "blockcraftery:editable_slab"
+        },
+        {
+            "type": "crafting",
+            "recipe": "blockcraftery:editable_stairs",
+            "recipe2": "blockcraftery:editable_slant"
+        },
+        {
+            "type": "crafting",
+            "recipe": "blockcraftery:editable_outer_corner",
+            "recipe2": "blockcraftery:editable_inner_corner"
+        },
+        {
+            "type": "crafting",
+            "recipe": "blockcraftery:editable_wall",
+            "recipe2": "blockcraftery:editable_fence"
+        },
+        {
+            "type": "crafting",
+            "recipe": "blockcraftery:editable_trap_door",
+            "recipe2": "blockcraftery:editable_pressure_plate_all"
+        }
+    ]
+}
+

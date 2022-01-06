@@ -1,0 +1,28 @@
+{
+    "name": "Simple Storage Network",
+    "icon": "storagenetwork:upgrade:3",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you want a nicer way to store your items, build a Simple Storage Network.$(br2)You will need at least one Network Master, one Request Table or Storage Inventory, Storage cables and Storage Link cables.$(br2)Use the cables to connect the Master and the Request Table with chests or other containers."
+        },
+		{
+			"type": "crafting",
+			"title": "Master + Request Table",
+			"recipe": "crafttweaker:storagenetwork_master_modified",
+			"recipe2": "crafttweaker:storagenetwork_request_modified"
+		},
+		{
+			"type": "crafting",
+			"title": "Cables",
+			"recipe": "crafttweaker:storagenetwork_kabel_modified",
+			"recipe2": "crafttweaker:storagenetwork_storage_kabel_modified"
+		},
+		{
+			"type": "crafting",
+			"title": "Storage Inventory",
+			"recipe": "crafttweaker:storagenetwork_inventory_modified"
+		}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Rustic",
+    "icon": "rustic:book",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Rustic is a medival mod allowing you to brew potions and different kinds of liquor.$(br2)It also adds new trees that can be used to make food more saturating or to automate the production of Syrmorite."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:rustic_almanac_modified",
+			"text": "Craft this book for more information about all the features Rustic adds (some recipes/items could be modified)."
+        }
+    ]
+}
+

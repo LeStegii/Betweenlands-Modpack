@@ -1,0 +1,16 @@
+{
+    "name": "Bonsai Pots",
+    "icon": "bonsaitrees:bonsaipot",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Bonsai Pots can be used to create simple tree farms.$(br2)Place soil and a sapling in a Pot and harvest it as soons as it's done.$(br2)Can be automated using a Hopping Bonsai Pot."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:bonsaitrees_bonsaipot",
+            "recipe2": "crafttweaker:bonsaitrees_bonsaipot_hopping_modified"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:venus_fly_trap"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+	  "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 30
+            }
+          },
+          "item": {
+            "items": [
+              "rustic:aloe_vera"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 70
+            }
+          }	
+        }
+      ]
+    }
+  ]
+}

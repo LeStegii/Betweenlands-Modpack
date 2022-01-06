@@ -1,0 +1,11 @@
+{
+    "name": "Fence Jumper/Step-Up",
+    "icon": "thebetweenlands:weedwood_plank_fence",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In this modpack you can jump over fences. That's it.$(br2)It also replaces the vanilla auto-jump feature with a better step-up version that can be toggled by pressing J (by default)."
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+
+#General Config Section
+[general]
+	#The Client ID of the Discord App to use
+	clientID = 927555627948068895
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = true
+	#Internal Version Number. NO TOUCHY!
+	version = 12
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Loading Modpack"
+	#The second line of text under the app name
+	state = "Starting the game..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "modpack_icon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "modpack_logo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Main Menu"
+	#The seconds line of text under the app name
+	state = "%player% is chilling in the menu"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "modpack_icon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "icon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[main_menu.buttons]]
+		label = "Modpack Download"
+		url = "https://www.curseforge.com/minecraft/modpacks/minecraft-betweenlands"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Multiplayer Menu"
+	#The second line of text under the app name
+	state = "What server will %player% join?"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "modpack_icon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "icon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[server_list.buttons]]
+		label = "Modpack Download"
+		url = "https://www.curseforge.com/minecraft/modpacks/minecraft-betweenlands"
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Joining Game"
+	#The second line of text under the app name
+	state = "%player% is joining a game"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "modpack_icon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "icon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[join_game.buttons]]
+		label = "Modpack Download"
+		url = "https://www.curseforge.com/minecraft/modpacks/minecraft-betweenlands"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Singeplayer"
+	#The second line of text under the app name
+	state = "Playing in %world%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "modpack_icon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "icon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[single_player.buttons]]
+		label = "Modpack Download"
+		url = "https://www.curseforge.com/minecraft/modpacks/minecraft-betweenlands"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Playing online"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "modpack_icon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "icon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[multi_player.buttons]]
+		label = "Modpack Download"
+		url = "https://www.curseforge.com/minecraft/modpacks/minecraft-betweenlands"
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Playing Betweenlands"
+	#The second line of text under the app name
+	state = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "modpack_icon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Betweenlands Modpack for MC %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "icon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	#The buttons to display on Discord
+	[[generic.buttons]]
+		label = "Modpack Download"
+		url = "https://www.curseforge.com/minecraft/modpacks/minecraft-betweenlands"
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+

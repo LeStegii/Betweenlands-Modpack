@@ -1,0 +1,16 @@
+{
+    "name": "Gravestone",
+    "icon": "gravestone:gravestone",
+    "category": "utility",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In case of death you won't loose all of your items in this pack.$(br2)When you die, all items in your inventory will be saved in a gravestone that appears on your death location."
+        },
+        {
+            "type": "spotlight",
+			"item": "gravestone:death_info",
+            "text": "You will get a list containing all your items and where to find them after you respawn."
+        }
+    ]
+}

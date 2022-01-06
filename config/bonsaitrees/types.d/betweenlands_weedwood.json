@@ -1,0 +1,31 @@
+{
+    "name": "betweenlands:weedwood",
+    "mod": "thebetweenlands",
+    "sapling": {
+        "name": "thebetweenlands:sapling_weedwood",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.5,
+    "drops": [
+        {
+            "name": "thebetweenlands:items_misc:20",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "thebetweenlands:log_weedwood",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "thebetweenlands:sapling_weedwood",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "thebetweenlands:leaves_weedwood_tree",
+            "data": 0,
+            "type": "LEAVES"
+        }
+    ]
+}

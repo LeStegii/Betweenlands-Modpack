@@ -1,0 +1,15 @@
+{
+    "name": "Biome Finder",
+    "icon": "naturescompass:naturescompass",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This compass will help you find the biome you're looking for."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:naturescompass_natures_compass_modified"
+        }
+    ]
+}

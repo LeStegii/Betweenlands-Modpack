@@ -1,0 +1,16 @@
+{
+    "name": "Mooncap/Dealthstalk Mushroom",
+    "icon": "rustic:deathstalk_mushroom",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "entity",
+			"entity": "thebetweenlands:sporeling",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"text": "Sporelings will drop between 0 and 1 Mooncap/Deathstalk Mushrooms."
+		}
+    ]
+}

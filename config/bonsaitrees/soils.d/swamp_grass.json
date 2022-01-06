@@ -1,0 +1,16 @@
+{
+  "name": "thebetweenlands:swamp_grass",
+  "mod": "thebetweenlands",
+  "soil": {
+    "name": "thebetweenlands:swamp_grass",
+    "data": 0,
+    "ignoreMeta": true
+  },
+
+  "modifiers": {
+    "growTime": 0.7,
+    "dropChance": 0.9
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

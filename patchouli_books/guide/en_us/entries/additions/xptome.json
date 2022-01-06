@@ -1,0 +1,15 @@
+{
+    "name": "XP Tomes",
+    "icon": "xpbook:xp_tome",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "XP Tomes can be used to store XP in a book.$(br2)Simply craft a Tome and shift-rightclick it to store XP, rightclick to get it back."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:xpbook_xp_tome_modified"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Waystones",
+    "icon": "waystones:waystone",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Waystones and Warpstones can be used to fast travel from one point to another. If the distance between two Waystones is too large, it will cost you levels to travel.$(br2)The Return scroll will teleport you to your nearest waystone, the Bound Scroll can be bound to a waystone and the Warp scroll acts like a one time Warp Stone."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:waystones_waystone_modified",
+            "recipe2": "crafttweaker:waystones_warp_stone_modified"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:waystones_warp_scroll_modified",
+            "recipe2": "crafttweaker:waystones_return_scroll_modified"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:waystones_bound_scroll_modified"
+        }
+    ]
+}

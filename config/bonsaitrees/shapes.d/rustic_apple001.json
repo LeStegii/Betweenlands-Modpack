@@ -1,0 +1,77 @@
+{
+  "type": "rustic:apple",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "rustic:leaves_apple",
+      "meta": 0
+    },
+    "b": {
+      "name": "minecraft:log",
+      "meta": 0
+    },
+    "c": {
+      "name": "rustic:leaves_apple",
+      "meta": 8
+    },
+    "d": {
+      "name": "rustic:leaves_apple",
+      "meta": 3
+    },
+    "e": {
+      "name": "rustic:leaves_apple",
+      "meta": 10
+    },
+    "f": {
+      "name": "rustic:leaves_apple",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      "aaaa ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " cca ",
+      "accca",
+      "dcaaf",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " cca ",
+      " eba ",
+      "aabca",
+      "acbca",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  c  ",
+      "  cc ",
+      "acaca",
+      "dccca",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " adaa",
+      "daaaa",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

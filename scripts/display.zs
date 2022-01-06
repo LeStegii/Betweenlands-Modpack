@@ -1,0 +1,10 @@
+<display:obsidian_display>.displayName = "Solid Tar Display";
+<display:diamond_display>.displayName = "Valonite Display";
+<display:wood_display>.displayName = "Weedwood Display";
+<display:display>.displayName = "Stone Display";
+<display:sand_display>.displayName = "Silt Display";
+<display:dirt_display>.displayName = "Swamp Dirt Display";
+<display:gravel_display>.displayName = "Cragrock Display";
+<display:quartz_display>.displayName = "Limestone Display";
+<display:iron_display>.displayName = "Syrmorite Display";
+<display:gold_display>.displayName = "Octine Display";

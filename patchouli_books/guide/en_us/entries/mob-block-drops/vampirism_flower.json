@@ -1,0 +1,16 @@
+{
+    "name": "Vampirism Orchid",
+    "icon": "vampirism:vampirism_flower",
+    "category": "mob-block-drops",
+    "pages": [
+        {
+			"type": "entity",
+			"entity": "thebetweenlands:frog",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"text": "Frogs will drop between 0 and 2 vampirism orchids."
+		}
+    ]
+}

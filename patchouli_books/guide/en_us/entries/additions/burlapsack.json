@@ -1,0 +1,15 @@
+{
+    "name": "Burlap Sack",
+    "icon": "burlapsack:burlap_sack",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This sack can be used to transport entites from one point to another."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_burlap_sack"
+        }
+    ]
+}

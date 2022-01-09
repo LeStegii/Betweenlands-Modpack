@@ -22,6 +22,7 @@ val itemsToKeep = [
 	<minecraft:comparator>,
 	<minecraft:redstone_lamp>,
 	<minecraft:piston>,
+	<minecraft:apple>,
 	<minecraft:observer>,
 	<minecraft:dropper>,
 	<minecraft:lead>,
@@ -101,6 +102,7 @@ for mod in loadedMods {
 			recipes.replaceAllOccurences(<minecraft:leather>, <thebetweenlands:items_misc:4>, item);
 
 			recipes.replaceAllOccurences(<minecraft:glass>, <ore:glassSilt>, item);
+			recipes.replaceAllOccurences(<minecraft:stained_glass:*>, <ore:glassSilt>, item);
 			recipes.replaceAllOccurences(<minecraft:glass_pane>, <ore:paneGlassSilt>, item);
 			recipes.replaceAllOccurences(<minecraft:hopper>, <thebetweenlands:syrmorite_hopper>, item);
 			recipes.replaceAllOccurences(<minecraft:cauldron>, <thebetweenlands:syrmorite_barrel>, item);

@@ -1,0 +1,32 @@
+{
+    "name": "Better Chests",
+    "icon": "ironchest:iron_chest",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If the normal chest isn't big enough, you might want to upgrade it to a Syrmorite, Octine or Valonite Chest which can hold more items."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ironchest_chest/iron/vanilla_iron_chest_modified",
+            "recipe2": "crafttweaker:ironchest_upgrade/chest/wood_iron_chest_upgrade_modified"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ironchest_chest/gold/iron_gold_chest_modified",
+            "recipe2": "crafttweaker:ironchest_upgrade/chest/iron_gold_chest_upgrade_modified"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ironchest_chest/diamond/gold_diamond_chest_modified",
+            "recipe2": "crafttweaker:ironchest_upgrade/chest/gold_diamond_chest_upgrade_modified"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ironchest_chest/crystal/diamond_crystal_chest_modified",
+            "recipe2": "crafttweaker:ironchest_upgrade/chest/diamond_crystal_chest_upgrade_modified"
+        }
+    ]
+}
+

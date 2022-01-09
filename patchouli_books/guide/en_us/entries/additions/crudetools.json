@@ -1,0 +1,21 @@
+{
+    "name": "Crude Tools",
+    "icon": "contenttweaker:crude_axe",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You cannot just break trees in this dimension because the wood is much harder.$(br2)Try to find some Pebbles on the ground and combine them with sticks which you can get from weedwood bushes and Reed Rope whic you can craft from Swamp Reed."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_crude_handle",
+            "recipe2": "thebetweenlands:swamp_reed_rope"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_crude_tool_head",
+            "recipe2": "crafttweaker:ct_crude_axe"
+        }
+    ]
+}

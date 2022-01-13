@@ -10,7 +10,6 @@ pebble.addTooltip(format.green("Could be used to craft an axe"));
 // Recipes
 recipes.addShaped("ct_crude_axe", <contenttweaker:crude_axe>,[
 	[<contenttweaker:crude_tool_head>],
-	[<thebetweenlands:items_misc:7>],
 	[<contenttweaker:crude_handle>]
 ]);
 

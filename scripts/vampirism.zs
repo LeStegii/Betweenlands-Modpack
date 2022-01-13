@@ -1,3 +1,5 @@
+val elixirSpeed = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed", Duration: 1800, Amplifier: 1}]});
+
 // Hide JEI recipes
 // We need to make recipes for all the weapon table items since you cant edit them in 1.12
 mods.jei.JEI.hideCategory("vampirism.hunter_weapon");
@@ -104,14 +106,14 @@ recipes.addShaped(<vampirism:tech_crossbow_ammo_package>, [
 
 // Swiftness Armor
 recipes.addShapeless(<vampirism:armor_of_swiftness_head>.withTag({tier: "NORMAL"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_helmet>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>
 ]);
 
 recipes.addShapeless(<vampirism:armor_of_swiftness_head>.withTag({tier: "ENHANCED"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_helmet>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>,
@@ -120,14 +122,14 @@ recipes.addShapeless(<vampirism:armor_of_swiftness_head>.withTag({tier: "ENHANCE
 ]);
 
 recipes.addShapeless(<vampirism:armor_of_swiftness_chest>.withTag({tier: "NORMAL"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_chestplate>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>
 ]);
 
 recipes.addShapeless(<vampirism:armor_of_swiftness_chest>.withTag({tier: "ENHANCED"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_chestplate>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>,
@@ -136,14 +138,14 @@ recipes.addShapeless(<vampirism:armor_of_swiftness_chest>.withTag({tier: "ENHANC
 ]);
 
 recipes.addShapeless(<vampirism:armor_of_swiftness_legs>.withTag({tier: "NORMAL"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_leggings>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>
 ]);
 
 recipes.addShapeless(<vampirism:armor_of_swiftness_legs>.withTag({tier: "ENHANCED"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_leggings>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>,
@@ -152,14 +154,14 @@ recipes.addShapeless(<vampirism:armor_of_swiftness_legs>.withTag({tier: "ENHANCE
 ]);
 
 recipes.addShapeless(<vampirism:armor_of_swiftness_feet>.withTag({tier: "NORMAL"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_boots>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>
 ]);
 
 recipes.addShapeless(<vampirism:armor_of_swiftness_feet>.withTag({tier: "ENHANCED"}), [
-	<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}),
+	elixirSpeed,
 	<thebetweenlands:lurker_skin_boots>,
 	<vampirism:item_garlic>,
 	<vampirism:item_garlic>,

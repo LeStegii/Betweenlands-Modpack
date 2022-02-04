@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Betweenlands",
-  "version": "2.0.3",
+  "version": "2.1",
   "author": "",
   "files": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "projectID": 263466,
-      "fileID": 3592162,
+      "fileID": 3625441,
       "required": true
     },
     {
@@ -81,7 +81,7 @@
     },
     {
       "projectID": 317780,
-      "fileID": 3582982,
+      "fileID": 3613288,
       "required": true
     },
     {
@@ -190,6 +190,11 @@
       "required": true
     },
     {
+      "projectID": 410967,
+      "fileID": 3076876,
+      "required": true
+    },
+    {
       "projectID": 239236,
       "fileID": 2560363,
       "required": true
@@ -265,6 +270,11 @@
       "required": true
     },
     {
+      "projectID": 575556,
+      "fileID": 3633888,
+      "required": true
+    },
+    {
       "projectID": 237065,
       "fileID": 3331364,
       "required": true
@@ -326,7 +336,7 @@
     },
     {
       "projectID": 538761,
-      "fileID": 3497364,
+      "fileID": 3624659,
       "required": true
     },
     {

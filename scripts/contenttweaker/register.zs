@@ -37,3 +37,41 @@ bananas.maxStackSize = 16;
 bananas.saturation = 12;
 crudeaxeItem.rarity = "COMMON";
 bananas.register();
+
+// Sulfur Dust
+var sulfurDust = VanillaFactory.createItem("sulfur_dust");
+sulfurDust.maxStackSize = 64;
+sulfurDust.rarity = "COMMON";
+sulfurDust.register();
+
+// Valonite Dust
+var valoniteDust = VanillaFactory.createItem("valonite_dust");
+valoniteDust.maxStackSize = 64;
+valoniteDust.rarity = "COMMON";
+valoniteDust.register();
+
+// Syrmorite Dust
+var syrmoriteDust = VanillaFactory.createItem("syrmorite_dust");
+syrmoriteDust.maxStackSize = 64;
+syrmoriteDust.rarity = "COMMON";
+syrmoriteDust.register();
+
+// Octine Dust
+var octineDust = VanillaFactory.createItem("octine_dust");
+octineDust.maxStackSize = 64;
+octineDust.rarity = "COMMON";
+octineDust.register();
+
+// Carbon Dust
+var carbonDust = VanillaFactory.createItem("carbon_dust");
+carbonDust.maxStackSize = 64;
+carbonDust.rarity = "COMMON";
+carbonDust.register();
+
+
+// Hunter Trainer Card
+var trainerCard = VanillaFactory.createItem("trainer_card");
+trainerCard.maxStackSize = 1;
+trainerCard.rarity = "RARE";
+trainerCard.glowing = true;
+trainerCard.register();

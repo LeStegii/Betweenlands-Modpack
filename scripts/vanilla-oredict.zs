@@ -49,7 +49,8 @@ val itemsToKeep = [
 	<minecraft:banner:*>,
 	<minecraft:painting>,
 	<minecraft:netherbrick>,
-	<minecraft:sugar>
+	<minecraft:sugar>,
+	<minecraft:gunpowder>
 ] as IItemStack[];
 
 for item in loadedMods["minecraft"].items {
@@ -74,6 +75,9 @@ for item in loadedMods["minecraft"].items {
 for mod in loadedMods {
 	if (!(mod.name has "betweenlands")) {
 		for item in mod.items {			
+			recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotSyrmorite>, item);
+			recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotOctine>, item);
+			recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:gemValonite>, item);
 			recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotSyrmorite>, item);
 			recipes.replaceAllOccurences(<minecraft:gold_ingot>, <ore:ingotOctine>, item);
 			recipes.replaceAllOccurences(<minecraft:iron_block>, <ore:blockSyrmorite>, item);
@@ -125,6 +129,8 @@ for mod in loadedMods {
 			recipes.replaceAllOccurences(<minecraft:stained_hardened_clay:0>, <thebetweenlands:limestone>, item);
 			recipes.replaceAllOccurences(<minecraft:hardened_clay>, <thebetweenlands:mud_bricks>, item);
 			recipes.replaceAllOccurences(<minecraft:glowstone>, <ore:blockSulfur>, item);
+			recipes.replaceAllOccurences(<minecraft:furnace>, <thebetweenlands:sulfur_furnace>, item);
+			recipes.replaceAllOccurences(<minecraft:clay_ball>, <thebetweenlands:sap_ball>, item);
 		}
 	}
 }
@@ -152,11 +158,16 @@ furnace.remove(<minecraft:redstone>);
 recipes.remove(<minecraft:blaze_powder>);
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.remove(<minecraft:sugar>);
+furnace.remove(<minecraft:gunpowder>);
 recipes.removeByRecipeName("crafttweaker:minecraft_flint_and_steel_modified");
 
 recipes.addShapeless("flint_and_steel", <minecraft:flint_and_steel>, [
 	<thebetweenlands:items_misc:47>,
 	<ore:ingotOctine>
+]);
+
+recipes.addShapeless("weedwood_chest", <thebetweenlands:weedwood_chest>, [
+	<minecraft:chest>
 ]);
 
 recipes.addShapeless(<minecraft:redstone>*3, [
@@ -173,6 +184,7 @@ recipes.addShapeless(<minecraft:soul_sand>*2, [
 
 // Change some item names 
 <minecraft:iron_bars>.displayName = "Syrmorite Bars";
+<minecraft:planks:1>.displayName = "Rotten Planks";
 
 // Oredict Stuff
 <ore:cobblestone>.remove(<minecraft:cobblestone>);
@@ -283,3 +295,16 @@ recipes.addShapeless(<minecraft:soul_sand>*2, [
 <ore:meatRaw>.add(<thebetweenlands:frog_legs_raw>);
 <ore:meatRaw>.add(<thebetweenlands:barnacle>);
 <ore:meatRaw>.add(<thebetweenlands:crab_stick>);
+
+<ore:herbRustic>.add(<rustic:core_root>);
+<ore:herbRustic>.add(<rustic:ginseng>);
+<ore:herbRustic>.add(<rustic:marsh_mallow>);
+<ore:herbRustic>.add(<rustic:cloudsbluff>);
+<ore:herbRustic>.add(<rustic:horsetail>);
+<ore:herbRustic>.add(<rustic:mooncap_mushroom>);
+<ore:herbRustic>.add(<rustic:wind_thistle>);
+<ore:herbRustic>.add(<rustic:cohosh>);
+<ore:herbRustic>.add(<rustic:deathstalk_mushroom>);
+<ore:herbRustic>.add(<rustic:aloe_vera>);
+<ore:herbRustic>.add(<rustic:chamomile>);
+<ore:herbRustic>.add(<rustic:blood_orchid>);

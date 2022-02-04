@@ -16,7 +16,7 @@ fancyGraphics:true
 ao:2
 renderClouds:true
 resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["Betweenlands Inventory V2.1.zip","Better Prodigy v1.3.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0

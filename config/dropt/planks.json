@@ -1,0 +1,22 @@
+{
+	"rules": [
+	 {
+		"match": {
+		  "blocks": {
+			 "blocks": [
+				"minecraft:planks:1"
+			 ]
+		  }
+		},
+		"drops": [
+		  {
+			 "item": {
+				"items" : [
+				  "thebetweenlands:rotten_planks"
+				]
+			 }
+		  }
+		]
+	 }
+  ]
+}

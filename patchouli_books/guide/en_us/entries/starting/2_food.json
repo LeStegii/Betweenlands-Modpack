@@ -1,0 +1,29 @@
+{
+    "name": "2. How to get food",
+    "icon": "thebetweenlands:anadia_meat_raw",
+    "category": "starting",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You need to eat. If you're a vampire already: Congratulations! You can just suck the blood of innocent creatures.$(br2)Humans have to find herbs, kill animals such as snails or grow some plants in order to get food.$(br2)You can cook meat using a sulfur furnace."
+        },
+		{
+			"type": "entity",
+			"entity": "thebetweenlands:mire_snail",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"text": "Mire Snails can drop their meet which can be cooked using a sulfur furnace."
+		},
+        {
+            "type": "text",
+            "text": "But Food isn't your only problem. This dimension is toxic and you will start to decay over time. You can search for sap trees which drop Sap balls. Those can be eaten and will fill your decay bar again."
+        },
+		{
+            "type": "spotlight",
+			"item": "thebetweenlands:sap_ball",
+            "text": "Eat those to stop your decay."
+        }
+    ]
+}

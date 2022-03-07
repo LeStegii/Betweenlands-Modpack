@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Bonsai Pots can be used to create simple tree farms.$(br2)Place soil and a sapling in a Pot and harvest it as soons as it's done.$(br2)Can be automated using a Hopping Bonsai Pot."
+            "text": "Bonsai Pots can be used to create simple tree farms.$(br2)Place soil and a sapling in a Pot and harvest it as soons as it's done.$(br2)Can be automated using a Hopping Bonsai Pot.$(br2)$(br2)(Some trees need these pots in order to grow)"
         },
         {
             "type": "crafting",

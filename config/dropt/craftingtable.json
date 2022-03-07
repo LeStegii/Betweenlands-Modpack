@@ -1,0 +1,22 @@
+{
+	"rules": [
+	 {
+		"match": {
+		  "blocks": {
+			 "blocks": [
+				"minecraft:crafting_table"
+			 ]
+		  }
+		},
+		"drops": [
+		  {
+			 "item": {
+				"items" : [
+				  "thebetweenlands:weedwood_workbench"
+				]
+			 }
+		  }
+		]
+	 }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "1. Surviving your first days",
+    "icon": "contenttweaker:crude_axe",
+    "category": "starting",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Basically everything in this dimension wants to kill you. In order to protect yourself, you should seek a shelter as soon as possible. But you cannot just break trees in this dimension because the wood is much harder.$(br2)Try to find some Pebbles on the ground and combine them with sticks which you can get from weedwood bushes in order to craft a simple axe."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_crude_axe",
+			"text": "Use this axe to get some weedwood so that you can craft better tools. Weedwood trees are also perfect for creating primitive shelters where you can survive."
+        },
+		{
+            "type": "text",
+            "text": "After building a shelter, you need a way to store your items and tools. You can use Weedwood Chests or Cabinets in the beginning and upgrade them later using Syrmorite or other materials.$(br2)You should also craft some Weedwood Tools so that you don't have to use primitive axes anymore and can start mining."
+        },
+        {
+            "type": "crafting",
+            "recipe": "thebetweenlands:weedwood_chest",
+            "recipe2": "thebetweenlands:weedwood_axe"
+		}
+    ]
+}

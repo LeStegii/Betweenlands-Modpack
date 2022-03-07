@@ -28,10 +28,10 @@ mods.rustic.CrushingTub.addRecipe(water*25, <minecraft:rotten_flesh>, <thebetwee
 mods.rustic.CrushingTub.addRecipe(water*25, <minecraft:rotten_flesh>, <thebetweenlands:barnacle>);
 mods.rustic.CrushingTub.addRecipe(water*25, <minecraft:rotten_flesh>, <thebetweenlands:crab_stick>);
 
-mods.rustic.CrushingTub.addRecipe(<liquid:water>*125, <thebetweenlands:swamp_dirt>, <thebetweenlands:mud>);
+mods.rustic.CrushingTub.addRecipe(water*125, <thebetweenlands:swamp_dirt>, <thebetweenlands:mud>);
 
 // Nether Brick
-mods.rustic.Condenser.addRecipe(<minecraft:netherbrick>*2, [<thebetweenlands:items_misc:10>], null, <minecraft:redstone>, <liquid:water>*10);
+mods.rustic.Condenser.addRecipe(<minecraft:netherbrick>*2, [<thebetweenlands:items_misc:10>], null, <minecraft:redstone>, water*10);
 
 // Ale Worth
 recipes.removeByRecipeName("rustic:ale_wort");
@@ -67,8 +67,8 @@ val speed_2 = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:speed
 val wither = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 900, Amplifier: 0}]});
 val wither_extended = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 1800, Amplifier: 0}]});
 val wither_2 = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:wither", Duration: 450, Amplifier: 1}]});
-val regeneration = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 1800, Amplifier: 0}]});
-val regeneration_extended = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "regeneration:speed", Duration: 900, Amplifier: 0}]});
+val regeneration = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]});
+val regeneration_extended = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 1800, Amplifier: 0}]});
 val regeneration_2 = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 450, Amplifier: 1}]});
 
 mods.rustic.Condenser.removeRecipe(instant_health);

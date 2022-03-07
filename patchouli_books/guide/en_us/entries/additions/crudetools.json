@@ -10,12 +10,11 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:ct_crude_handle",
-            "recipe2": "thebetweenlands:swamp_reed_rope"
+            "recipe2": "crafttweaker:ct_crude_tool_head"
         },
         {
             "type": "crafting",
-            "recipe": "crafttweaker:ct_crude_tool_head",
-            "recipe2": "crafttweaker:ct_crude_axe"
+            "recipe": "crafttweaker:ct_crude_axe"
         }
     ]
 }

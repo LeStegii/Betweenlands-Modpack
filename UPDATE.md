@@ -1,3 +1,25 @@
+### 2.0.5
+
+**Changelog:**
+Fixed Vampirism Dungeon block drops
+Added default Resourcepacks
+Added carrots as seed drops
+Updated many GUI textures (Betweenlands Style)
+Updated Betweenlands Patchouli Guide
+Added new structures and removed old ones
+Fixed Rustic elixir texture
+Updated Vampire Baron Texture
+Disabled villager Trading 
+Added message when breaking trees without an axe
+Added Hunter Trainer Card feature
+Updated CraftTweaker
+Updated Dropt
+Updated Simple Discord RPC
+Updated Simple Storage Network
+Updated Xaero's Minimap (Fair-play)
+Updated Xaero's World Map
+Updated XP Tome
+
 ### 2.0.2
 
 **Changelog:**

@@ -238,6 +238,8 @@ atomicreshaper.removeRecipe(<ore:stone>);
 atomicreshaper.removeRecipe(<thebetweenlands:smooth_betweenstone>);
 atomicreshaper.removeRecipe(<ore:dirt>);
 atomicreshaper.removeRecipe(<ore:sand>);
+atomicreshaper.removeRecipe(<ore:paper>);
+atomicreshaper.removeRecipe(<prodigytech:circuit_plate>);
 atomicreshaper.removeRecipe(<minecraft:paper>);
 atomicreshaper.addRecipeMulti(<thebetweenlands:smooth_betweenstone>, 20, 100, ores, weigths);
 atomicreshaper.addRecipe(<ore:stoneCharred>, <rustic:slate>, 2);

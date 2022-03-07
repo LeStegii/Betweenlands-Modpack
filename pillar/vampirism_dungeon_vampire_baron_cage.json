@@ -5,7 +5,7 @@
 // ===================================================================
 
 {
-	"generatorType": "NONE",
+	"generatorType": "UNDERGROUND",
 	"minY": -1,
 	"maxY": -1,
 	"offsetX": 0,
@@ -16,13 +16,13 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [],
+	"dimensionSpawns": [20],
 	"biomeNameSpawns": [],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": false,
-	"generateEverywhere": false,
+	"generateEverywhere": true,
 
 	"integrity": 1,
 	"decay": 0,
@@ -31,5 +31,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 100
+	"rarity": 1
 }

@@ -50,7 +50,8 @@ val itemsToKeep = [
 	<minecraft:painting>,
 	<minecraft:netherbrick>,
 	<minecraft:sugar>,
-	<minecraft:gunpowder>
+	<minecraft:gunpowder>,
+	<minecraft:carrot>
 ] as IItemStack[];
 
 for item in loadedMods["minecraft"].items {
@@ -97,6 +98,7 @@ for mod in loadedMods {
 			recipes.replaceAllOccurences(<minecraft:flint>, <thebetweenlands:items_misc:47>, item);
 			recipes.replaceAllOccurences(<minecraft:brick>, <thebetweenlands:items_misc:10>, item);
 			recipes.replaceAllOccurences(<minecraft:paper>, <thebetweenlands:items_misc:32>, item);
+			recipes.replaceAllOccurences(<ore:paper>, <thebetweenlands:items_misc:32>, item);
 			
 			recipes.replaceAllOccurences(<minecraft:blaze_rod>, <ore:ingotOctine>, item);
 			recipes.replaceAllOccurences(<minecraft:rotten_flesh>, <thebetweenlands:snail_flesh_raw>, item);

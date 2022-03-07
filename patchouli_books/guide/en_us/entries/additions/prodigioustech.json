@@ -1,0 +1,17 @@
+{
+    "name": "Prodigious Technology",
+    "icon": "prodigytech:ferramic_gear",
+    "category": "additions",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Prodigious Tech is a simple tech mod based on heat as an energy source.$(br2)You can use it to automate tasks, process items or generate ores out of stone.$(br2)Start by creating a Magmatic Aeroheater and placing an Octine Block below."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:prodigytech_tools/guide_modified",
+			"text": "For more information read the Handbook of Prodigies."
+        }
+    ]
+}
+

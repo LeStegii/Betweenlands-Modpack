@@ -1,0 +1,20 @@
+{
+    "name": "3. Mining",
+    "icon": "thebetweenlands:bone_pickaxe",
+    "category": "starting",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Getting resources is important.$(br2)Use a Weedwood Pickaxe and find a cave. If you already have Slimy Bones, you can upgrade your pickaxe, if not you can find them as an ore."
+        },
+        {
+            "type": "crafting",
+            "recipe": "thebetweenlands:weedwood_pickaxe",
+            "recipe2": "thebetweenlands:bone_pickaxe"
+		},
+		{
+            "type": "text",
+            "text": "This dimension has many new ores. The most important ones are Sulfur, Octine, Syrmorite and Valonite.$(br2)Sulfur can be used as coal, Syrmorite and Octine can be used for tools, weapons and different blocks. Valonite is the rarest resource and can be compared to diamonds."
+        }
+    ]
+}

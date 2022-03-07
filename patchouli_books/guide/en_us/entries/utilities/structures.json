@@ -26,7 +26,7 @@
 			"rotate": true,
 			"default_rotation": -45,
 			"title": "Trainer",
-			"text": "Hunter Trainers will spawn in your world."
+			"text": "You can find Vampire hunters in camps, rightclick them with a Trainer Card to convert them into a Trainer."
 		},
         {
 			"type": "entity",

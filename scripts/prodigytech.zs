@@ -70,6 +70,8 @@ mods.prodigytech.explosionfurnace.recipes.removeAll();
 mods.prodigytech.explosionfurnace.recipes.addRecipe(<thebetweenlands:items_misc:11>.withAmount(1), <prodigytech:ferramic_ingot>.withAmount(1), 360, <rustic:beeswax>, 4);
 mods.prodigytech.explosionfurnace.recipes.addRecipe(<thebetweenlands:items_misc:41>.withAmount(9), <prodigytech:ferramic_nugget>.withAmount(9), 360, <rustic:beeswax>, 4);
 mods.prodigytech.explosionfurnace.recipes.addRecipe(<ore:ingotRawZorrasteel>, <prodigytech:zorrasteel_ingot>, 1440, <ore:dustCarbon>, 1);
+mods.prodigytech.explosionfurnace.recipes.addRecipe(<ore:dustSyrmorite>, <minecraft:iron_ingot>.withAmount(1), 45);
+mods.prodigytech.explosionfurnace.recipes.addRecipe(<ore:dustOctine>, <minecraft:gold_ingot>.withAmount(1), 45);
 mods.prodigytech.explosionfurnace.recipes.addRecipe(<ore:stone>, <prodigytech:charred_cobblestone>, 45);
 mods.prodigytech.explosionfurnace.recipes.addRecipe(<ore:stoneCharred>, <prodigytech:charred_cobblestone>, 45);
 mods.prodigytech.explosionfurnace.recipes.addRecipe(<ore:cobblestone>, <thebetweenlands:silt>, 45);

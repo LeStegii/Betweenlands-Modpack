@@ -51,6 +51,9 @@ val itemsToKeep = [
 	<minecraft:netherbrick>,
 	<minecraft:sugar>,
 	<minecraft:gunpowder>,
+	<minecraft:enchanting_table>,
+	<minecraft:iron_ingot>,
+	<minecraft:gold_ingot>,
 	<minecraft:carrot>
 ] as IItemStack[];
 
@@ -154,6 +157,10 @@ JEI.hide(<minecraft:farmland>);
 JEI.hide(<minecraft:grass_path>);
 JEI.hide(<minecraft:knowledge_book>);
 JEI.hide(<minecraft:fireworks>);
+recipes.remove(<minecraft:iron_ingot>);
+recipes.remove(<minecraft:gold_ingot>);
+furnace.remove(<minecraft:iron_ingot>);
+furnace.remove(<minecraft:gold_ingot>);
 furnace.remove(<minecraft:netherbrick>);
 furnace.remove(<minecraft:sugar>);
 furnace.remove(<minecraft:redstone>);
@@ -187,6 +194,8 @@ recipes.addShapeless(<minecraft:soul_sand>*2, [
 // Change some item names 
 <minecraft:iron_bars>.displayName = "Syrmorite Bars";
 <minecraft:planks:1>.displayName = "Rotten Planks";
+<minecraft:iron_ingot>.displayName = "Syrmorite Coin";
+<minecraft:gold_ingot>.displayName = "Octine Coin";
 
 // Oredict Stuff
 <ore:cobblestone>.remove(<minecraft:cobblestone>);
@@ -310,3 +319,6 @@ recipes.addShapeless(<minecraft:soul_sand>*2, [
 <ore:herbRustic>.add(<rustic:aloe_vera>);
 <ore:herbRustic>.add(<rustic:chamomile>);
 <ore:herbRustic>.add(<rustic:blood_orchid>);
+
+
+recipes.addShapeless(<thebetweenlands:mob_spawner>.withTag({SpawnPotentials: [{Entity: {id: "thebetweenlands:wight"}, Weight: 1}]}), [<minecraft:bedrock>]);

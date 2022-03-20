@@ -11,6 +11,18 @@
 				"meta": 0,
 				"size": 3
 			}
+		},
+		{
+			"input": {
+				"id": "thebetweenlands:items_misc",
+				"meta": 18,
+				"size": 2
+			},
+			"output": {
+				"id": "contenttweaker:sulfur_dust",
+				"meta": 0,
+				"size": 1
+			}
 		}
 	]	
 }

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Betweenlands",
-  "version": "2.0.3",
+  "version": "1212",
   "author": "",
   "files": [
     {
@@ -81,7 +81,7 @@
     },
     {
       "projectID": 317780,
-      "fileID": 3646977,
+      "fileID": 3686597,
       "required": true
     },
     {

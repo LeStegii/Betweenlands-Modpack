@@ -1,3 +1,12 @@
+### 2.0.6
+
+**Changelog:**
+Added new vampire spawner structure 
+Added Syrmorite/Octine Coins
+Added missing recipe for Sulfur Dust 
+Re-added Enchanting Table
+Updated Xaero's Worldmap
+
 ### 2.0.5
 
 **Changelog:**

@@ -1,3 +1,36 @@
+### 2.1.0
+
+**Changelog:**
+- Updated [ANGRY PIXEL] The Betweenlands (3.8.1 -> 3.9.6)
+- Updated Athenaeum (1.19.5 -> 1.19.6)
+- Updated Controlling (3.0.10 -> 3.0.12.2)
+- Updated CraftTweaker (4.1.20.674 -> 4.1.20.698)
+- Updated Dropt (1.19.2 -> 1.19.3)
+- Updated ReAuth (3.6.0 -> 4.0.7)
+- Updated Simple Discord RPC [Forge/Fabric/Quilt] (2.7.2 -> 3.1.1)
+- Updated Xaero's Minimap (Fair-play Edition) (FP22.2.0.1 -> FP23.9.1)
+- Updated Xaero's World Map (1.20.4 -> 1.37.8)
+
+- Replaced Mouse Tweaks with Mouse Tweaks Unofficial
+- Replaced Just Enough Items (JEI) with Had Enough Items
+- Replaced Pillar with Pillar Patched
+- Replaced FoamFix with VintageFix
+- Replaced Crafting Tweaks with Crafting Tweaks Unofficial
+- Replaced Sound Physics with Sound Physics Remixin
+
+- Added Aqua Acrobatics [Forge]
+- Added Universal Tweaks
+- Added Config Anytime
+- Added MixinBooter
+- Added Loading Bar Progress
+- Added Fancier Block Particles
+- Added Red Core
+- Added Just Enough Resources (JER)
+
+- Removed VanillaFix
+- Removed FenceJumper (UT)
+- Removed Ding (UT)
+
 ### 2.0.7
 
 **Changelog:**

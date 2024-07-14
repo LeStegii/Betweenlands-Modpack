@@ -1,10 +1,6 @@
 Thanks to all the mod developers for creating the amazing mods that can be found in this pack!
 You can find links to all of them on the CF Page under "Files".
 
-This Modpack includes "Sound Physics" which is not a CF project.
-Author: sonicether (original), daipenger (fork), djpadbit (fork)
-Link: https://github.com/djpadbit/Sound-Physics/releases/tag/1.0.10-1
-
 Many textures in this Modpack have been modified or recreated. The original textures belong to their corresponding mod.
 You can find links to all of them on the CF Page under "Files".
 
